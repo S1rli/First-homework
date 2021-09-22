@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Permanent+Marker&display=swap');
+
+body {
+    background-color: rgb(200, 225, 241);
+}
+
+.heading {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.ingredients {
+    border: 1px solid black;
+    width: 50%;
+    margin: 2rem auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: 'Grechen Fuemen', cursive;
+}
+
+.ingredients-table {
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0 auto;
+}
+
+.intsructsions {
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.intsructsions ol {
+    margin: 2 auto;
+    width: 75%;
+    font-family: 'Grechen Fuemen', cursive;
+}
