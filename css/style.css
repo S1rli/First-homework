@@ -12,11 +12,19 @@ body {
 #td-melt {
     text-align: right;
     padding-right: 20px;
+    color: darkred;
 }
 
 #td-sugar {
     text-align: right;
     padding-right: 65px;
+    color:orange;
+}
+
+#td-dark {
+    text-align: right;
+    padding-left: 15%;
+    color:rgb(216, 216, 23);
 }
 
 #td-eggs {
@@ -27,25 +35,30 @@ body {
 #td-egg {
     text-align: right;
     padding-right: 74px;
+    color: green;
 }
 
 #td-flour {
     text-align: right;
     padding-right: 75px;
+    color: rgb(95, 167, 212);
 }
 
 #td-chop {
     text-align: right;
     padding-right: 15px;
+    color: darkblue;
 }
 
 #td-salt {
     text-align: right;
     padding-right: 80px;
+    color: violet;
 }
 
+
 .ingredients {
-    border: 1px solid rgb(161, 4, 4);
+    border: 2px solid rgb(0, 0, 0);
     width: 50%;
     margin: 2rem auto;
     padding-top: 5%;
@@ -54,12 +67,12 @@ body {
 }
 
 .ingredients-table {
-    border: 2px solid rgb(113, 51, 129);
+    border: 2px solid rgb(0, 0, 0);
     margin: 0 auto;
 }
 
 .intsructsions {
-    border: 1px solid rgb(73, 189, 37);
+    border: 2px solid rgb(0, 0, 0);
     width: 50%;
     margin: 0 auto;
 }
@@ -68,4 +81,14 @@ body {
     margin: 2 auto;
     width: 75%;
     font-family: 'Grechen Fuemen', cursive;
+    color: tomato;
+}
+
+img {
+    border-radius: 8px;
+    width: 250px;
+}
+
+.footer {
+    font-size: 1.5rem;
 }
